@@ -6,7 +6,7 @@
 int main(int, char**) {
     std::cout << "Hello, World!\n";
 
-    std::ifstream in("test.xml");
+    std::ifstream in("data/test.xml");
     Poco::XML::InputSource src(in);
     Poco::XML::DOMParser parser;
     Poco::AutoPtr<Poco::XML::Document> pDoc = parser.parse(&src);
