@@ -1,0 +1,117 @@
+Hello, World!
+0#document  : 
+1 people_list  : 
+2  #text  : 
+    
+2  person  : 
+3   #text  : 
+        
+3   name  : 
+4    #text  : Peter Schojer
+3   #text  : 
+        
+3   birthdate  : 
+4    #text  : 15/03/1976
+3   #text  : 
+        
+3   gender  : 
+4    #text  : male
+3   #text  : 
+        
+3   children  : 
+4    #text  : 
+            
+4    person  : 
+5     #text  : 
+                
+5     name  : 
+6      #text  : Hans-Peter Schojer
+5     #text  : 
+                
+5     birthdate  : 
+6      #text  : 23/06/2000
+5     #text  : 
+                
+5     gender  : 
+6      #text  : male
+5     #text  : 
+            
+4    #text  : 
+            
+4    person  : 
+5     #text  : 
+                
+5     name  : 
+6      #text  : Anja Schojer
+5     #text  : 
+                
+5     birthdate  : 
+6      #text  : 12/01/1998
+5     #text  : 
+                
+5     gender  : 
+6      #text  : female
+5     #text  : 
+            
+4    #text  : 
+        
+3   #text  : 
+    
+2  #text  : 
+    
+2  person  : 
+3   #text  : 
+        
+3   name  : 
+4    #text  : Hilder Schojer
+3   #text  : 
+        
+3   birthdate  : 
+4    #text  : 25/02/1979
+3   #text  : 
+        
+3   gender  : 
+4    #text  : male
+3   #text  : 
+        
+3   children  : 
+4    #text  : 
+            
+4    person  : 
+5     #text  : 
+                
+5     name  : 
+6      #text  : Hans-Peter Schojer
+5     #text  : 
+                
+5     birthdate  : 
+6      #text  : 23/06/2000
+5     #text  : 
+                
+5     gender  : 
+6      #text  : male
+5     #text  : 
+            
+4    #text  : 
+            
+4    person  : 
+5     #text  : 
+                
+5     name  : 
+6      #text  : Anja Schojer
+5     #text  : 
+                
+5     birthdate  : 
+6      #text  : 12/01/1998
+5     #text  : 
+                
+5     gender  : 
+6      #text  : female
+5     #text  : 
+            
+4    #text  : 
+        
+3   #text  : 
+    
+2  #text  : 
+
