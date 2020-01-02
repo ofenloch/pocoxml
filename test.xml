@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE people_list>
+<people_list>
+    <person>
+        <name>Peter Schojer</name>
+        <birthdate>15/03/1976</birthdate>
+        <gender>male</gender>
+        <children>
+            <person>
+                <name>Hans-Peter Schojer</name>
+                <birthdate>23/06/2000</birthdate>
+                <gender>male</gender>
+            </person>
+            <person>
+                <name>Anja Schojer</name>
+                <birthdate>12/01/1998</birthdate>
+                <gender>female</gender>
+            </person>
+        </children>
+    </person>
+    <person>
+        <name>Hilder Schojer</name>
+        <birthdate>25/02/1979</birthdate>
+        <gender>male</gender>
+        <children>
+            <person>
+                <name>Hans-Peter Schojer</name>
+                <birthdate>23/06/2000</birthdate>
+                <gender>male</gender>
+            </person>
+            <person>
+                <name>Anja Schojer</name>
+                <birthdate>12/01/1998</birthdate>
+                <gender>female</gender>
+            </person>
+        </children>
+    </person>
+</people_list>
