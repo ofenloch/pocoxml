@@ -27,9 +27,14 @@ int main(int, char**) {
     return 0;
 }
 
+/**
+ * determine the given node's level in the tree
+ * level 0 is the document node
+ */
 int getNodeLevel(Poco::XML::Node* pNode) {
     int level = 0;
     if (pNode->parentNode() != nullptr) {
+        // there is at list one level above this one
         return (1+getNodeLevel(pNode->parentNode()));
     }
     return level;
