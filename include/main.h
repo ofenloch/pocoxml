@@ -10,4 +10,6 @@
 #include <Poco/SAX/InputSource.h>
 #include <Poco/XML/XML.h>
 
+int getNodeLevel(Poco::XML::Node* pNode);
+
 #endif // #ifndef _main_h_
