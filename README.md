@@ -1,0 +1,1 @@
+This is only a small hello world kind of C++ project with [CMake](https://cmake.org) that demonstrates how to use the [Poco XML](https://pocoproject.org/slides/170-XML.pdf) library.
