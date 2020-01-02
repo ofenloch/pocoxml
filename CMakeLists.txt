@@ -7,7 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-add_executable(pocoxml ${PROJECT_SOURCE_DIR}/src/main.cpp)
+add_executable(pocoxml 
+    ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/xml.cpp)
 
 target_link_libraries(pocoxml m PocoXML)
 
