@@ -7,11 +7,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-include(CTest)
-enable_testing()
-
 add_executable(pocoxml ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
+target_link_libraries(pocoxml m PocoXML)
+
+include(CTest)
+enable_testing()
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
