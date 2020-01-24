@@ -1,1 +1,6 @@
 build/
+# ignore xml files in the project's root directory
+/*.xml
+# ignore log files in the project's root directory
+/*.log
+/*.log.*
