@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE people_list>
 <people_list>
-    <person>
+    <person id="first">
         <name>Peter Schojer</name>
         <birthdate>15/03/1976</birthdate>
         <gender>male</gender>
@@ -18,7 +18,7 @@
             </person>
         </children>
     </person>
-    <person>
+    <person id="second">
         <name>Hilder Schojer</name>
         <birthdate>25/02/1979</birthdate>
         <gender>male</gender>
