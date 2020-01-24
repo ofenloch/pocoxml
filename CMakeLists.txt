@@ -11,7 +11,7 @@ add_executable(pocoxml
     ${PROJECT_SOURCE_DIR}/src/main.cpp
     ${PROJECT_SOURCE_DIR}/src/xml.cpp)
 
-target_link_libraries(pocoxml m PocoXML)
+target_link_libraries(pocoxml m PocoXML PocoFoundation)
 
 include(CTest)
 enable_testing()
