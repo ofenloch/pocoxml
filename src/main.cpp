@@ -16,6 +16,7 @@ int main(int, char **) {
         CXml::printSubNodes(pDoc2);
         CXml::saveNodeToFile((Poco::XML::Node*)pDoc2, "test-copy.xml");
     }
+    CXml::normalizeXMLFile("test-copy.xml", "test-copy-normalized.xml");
 
     CXml::createTestFile("test-file.xml");
 
