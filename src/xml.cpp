@@ -83,9 +83,11 @@ CXml::normalizeXMLFile(const std::string& inFileName, const std::string& outFile
 
     Poco::AutoPtr<Poco::XML::Document> pDocIn = parseFile(inFileName);
     Poco::XML::DOMWriter writer;
-    writer.setNewLine("\n");
-    writer.setIndent(" ");
-    int writerOptions = Poco::XML::XMLWriter::WRITE_XML_DECLARATION + Poco::XML::XMLWriter::PRETTY_PRINT + Poco::XML::XMLWriter::PRETTY_PRINT_ATTRIBUTES;
+    writer.setNewLine(Poco::XML::XMLWriter::NEWLINE_LF);
+    writer.setIndent(" "); // Use a single sapce for indentation. The default is a single TAB character.
+    int writerOptions = Poco::XML::XMLWriter::WRITE_XML_DECLARATION + 
+                        Poco::XML::XMLWriter::PRETTY_PRINT + 
+                        Poco::XML::XMLWriter::PRETTY_PRINT_ATTRIBUTES;
     writer.setOptions(writerOptions);
 
     std::ofstream ofs;
@@ -112,7 +114,7 @@ CXml::createTestFile(const std::string& fileName) {
     Poco::AutoPtr<Poco::XML::Element> pDDDoc1 = pXMLDoc->createElement("Document");
     pDDDoc1->setAttribute("sourcepath", "./data");
     pDDDoc1->setAttribute("targetpath", "./");
-    pDDDoc1->setAttribute("id", "Documnet1");
+    pDDDoc1->setAttribute("id", "Document1");
     pXMLRoot->appendChild(pDDDoc1);
 
     Poco::AutoPtr<Poco::XML::Element> pChild3 = pXMLDoc->createElement("MasterBlock");
@@ -136,7 +138,8 @@ CXml::createTestFile(const std::string& fileName) {
     pDDDoc1->appendChild(pChild2);
 
     Poco::XML::DOMWriter writer;
-    writer.setNewLine("\n");
+    writer.setNewLine(Poco::XML::XMLWriter::NEWLINE_LF);
+    writer.setIndent(" "); // Use a single sapce for indentation. The default is a single TAB character.
     int writerOptions = Poco::XML::XMLWriter::WRITE_XML_DECLARATION +
                         Poco::XML::XMLWriter::PRETTY_PRINT +
                         Poco::XML::XMLWriter::PRETTY_PRINT_ATTRIBUTES;
