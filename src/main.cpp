@@ -18,7 +18,7 @@ int main(int, char **) {
     }
     CXml::normalizeXMLFile("test-copy.xml", "test-copy-normalized.xml");
 
-    CXml::createTestFile("test-file.xml");
+    CXml::createTestFile("document-description.xml");
 
     return 0;
 }
